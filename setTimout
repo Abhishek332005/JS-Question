@@ -1,0 +1,3 @@
+setTimeout(() => {
+console.log("After 2 sec delay it is print ");
+},2000)
