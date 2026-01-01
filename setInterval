@@ -1,0 +1,3 @@
+setInterval(() => {
+console.log("It print after every 2 sec delay ")
+},2000)
