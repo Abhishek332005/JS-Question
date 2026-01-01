@@ -1,0 +1,9 @@
+function outerFunction(){
+let outerValue = "This is from the outer" 
+   function innerFunction(){
+      console.log(outerValue);
+}
+return innerFunction 
+}
+const closureFunction = outerFunction();
+closureFunction();
