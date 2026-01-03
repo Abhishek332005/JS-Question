@@ -1,0 +1,14 @@
+const data = {name:"Ram",age:"25"}
+function fetchData(){
+return new Promise((resolve, rejected) => {
+setTimeout(()=>{
+resolve(data);
+},2000)
+})
+}
+fetchData().then(
+data => {
+console.log(data)
+}).catch((err)=>{
+console.log("Error",err)
+})
